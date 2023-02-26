@@ -1,0 +1,47 @@
+html,
+
+body{
+    background-color: aliceblue;
+    
+   
+    font-size: 27px;
+}
+.card-format{
+    
+    width: 18rem;
+    border: 1px solid lightslategrey;
+    
+}
+
+.responsive {
+    width: 100%;
+    
+    height: auto;
+  }
+.title-box{
+    height: 220px;
+    border: 1px solid lightslategrey;
+
+}
+.title{
+   margin-top: 3%;
+   margin-left: 5%;
+   
+    word-wrap:normal;
+    font-size: 30px;
+   
+}
+.text{
+    display: flex;
+    margin-left: 5%; 
+    margin-top: 5%;
+    word-wrap:normal;
+    
+}
+
+.item{
+display: flex;
+
+border: 1px solid lightslategrey;
+
+}

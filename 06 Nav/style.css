@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    height: 100%;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to left, #e1e0df, #313131);
+    color: #FFF;
+    height: 50px;
+    padding: 1em;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+   
+   
+  }
+
+  .menu > li {
+    margin: 1rem;
+    overflow: hidden;
+  }
+
+  
+  .hamburguer {
+    display: none;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  
+ 
+  
+
+  @media (max-width: 768px) {
+    .hamburguer {
+      display: flex;
+    }
+    .menu {
+        display: none;
+      position: none;
+      top: 0;
+      margin-top: 50px;
+      left: 0;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+   
+  }
+
+  

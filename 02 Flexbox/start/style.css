@@ -1,0 +1,82 @@
+html,
+
+
+body{
+    height: 100%;
+    background-color: #F5CDB4;
+}
+section{
+    border: 2px solid black; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:98%;
+    width: 200px;
+    background-color: #74A089;
+    overflow: hidden;
+
+}
+section.no-flex{
+    display: block;
+
+}
+section .row {
+    border-top: 2px solid black;
+  }
+
+section .logo{
+    width: 99%;
+    height: 200px;
+}
+
+.logopic{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    height: 200px;
+    width: 99%;
+    
+}
+.listLink{
+
+    flex: 1;
+}
+.boxlink{
+    height: 40px;
+    
+}
+
+a{      
+    margin-top: 3%;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2b2b2b;
+    text-decoration: none;
+    justify-content: center;
+}
+a:hover{
+    color: #2b2bb2;
+    
+}
+
+.lastbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.avatarPic{
+    margin-top: 10px;
+    margin-left: 25%;
+    height: 140px;
+}
+
+.username{
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center
+}
